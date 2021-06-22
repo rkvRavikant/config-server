@@ -2,7 +2,7 @@
 
 -This repository contains one spring boot project that is created as a configuration server and one property file that is going to be referred from the config server project.
 
--This repository has 2 branches main and master, so you can change the branch(label) value in the application properties of config-server application to refer any properties present in both the branches.
+-This repository has 2 branches: main and master, so you can change the branch(label) value in the application properties of config-server application to refer any properties present in both the branches.
 
 - Once we start the application we can hit the url on localhost to find the response of the property read. **url**: **http://localhost:8085/config-mgmt-service/default**. 
   - here port(8085) can be changed accourding to the port number present in application.properties. 
